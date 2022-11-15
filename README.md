@@ -33,7 +33,7 @@ echo $GOOGLE_APPLICATION_CREDENTIALS
 
 You may also need to enable the BigQuery API on your account. This can be done [here](https://console.cloud.google.com/flows/enableapi?apiid=bigquery). Select the project in which you created the account service and click **Continue**. This will enable the BigQuery API service.
 
-Now prepare the Python environment (assumes that you already have Python 3.5 or newer installed). From your working directory run:
+Now prepare the Python environment (assumes that you already have [Python 3.7.14](https://docs.python.org/3.7/library/venv.html) or newer installed). From your working directory run:
 
 ```bash
 python3 -m virtualenv env
